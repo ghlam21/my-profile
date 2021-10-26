@@ -1,0 +1,135 @@
+body {
+	background-color:#FDFAF6;
+	color: rgb(30, 30, 30);
+	font-family: 'Zen Maru Gothic', sans-serif;
+	font-size:18px;
+	font-weight: 
+}
+
+h1, h2, h3 {
+	font-family:'Zen Maru Gothic', sans-serif;
+}
+
+h1{
+	color:#7C9473;
+	font-size:40px; 
+}
+
+h2{
+	color:#ADC2A9;
+	font-size:25px;
+	font-weight: 
+}
+
+a {
+	text-decoration: none;
+	color:#064420;
+	font-weight:bold;
+}
+
+a:hover {
+	color: #A2D2FF;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,4);
+	border-radius: 4px;
+	margin: 20px 0px;
+
+}
+
+.img-circle {
+	border-radius: 50%;
+
+}
+
+.btn-beige {
+	background-color: #E4EFE7;
+	color :#064420;
+	padding: 10px 15px;
+	border-radius: 4px;	
+
+}
+
+.btn-beige:hover {
+	background-color: #D3E4CD;
+	color: #064420;
+	text-align: center;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding : 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+
+
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #064420;
+}
+
+/* Custom design with Id */
+
+#introduction p {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+#introduction {
+	text-align: center	
+}
+
+#end {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
